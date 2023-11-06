@@ -3,6 +3,7 @@ import { getWeatherData } from "./utils";
 import "./App.css";
 import Current from "./comps/current/Current";
 import LocationInput from "./comps/locationInput/LocationInput";
+import NavBar from "./comps/navBar/NavBar";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState([]);
@@ -17,7 +18,8 @@ function App() {
   console.log(currentWeather);
   return (
     <div className="App">
-      <LocationInput location={location} setLocation={setLocation} />
+      <NavBar setLocation={setLocation} />
+      <LocationInput setLocation={setLocation} />
       <Current currentWeather={currentWeather} />
     </div>
   );

@@ -1,0 +1,12 @@
+.nav-container {
+  height: 5vb;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 0 10% 0 10%;
+  border: 2px solid red;
+}
+
+.countries {
+  padding-right: 15px;
+}

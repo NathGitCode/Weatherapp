@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const LocationInput = ({ location, setLocation }) => {
+const LocationInput = ({ setLocation }) => {
   const [tempState, setTempState] = useState("");
   const [countryState, setCountryState] = useState("");
 
@@ -20,8 +20,6 @@ const LocationInput = ({ location, setLocation }) => {
     setCountryState("");
   };
 
-  console.log(tempState);
-  console.log(location);
   return (
     <div>
       <form className="form" onSubmit={handleSubmit}>

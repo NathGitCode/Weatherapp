@@ -2,9 +2,8 @@ import React from "react";
 import CurrentCard from "./currentCard/CurrentCard";
 
 const Current = ({ currentWeather }) => {
-  console.log(currentWeather);
   return (
-    <div>
+    <div className="current-container">
       {currentWeather.map((currentWeatherCard, index) => (
         <CurrentCard key={index} currentWeatherCard={currentWeatherCard} />
       ))}
