@@ -19,25 +19,25 @@ const NavBar = ({ setLocation }) => {
       <div className="countries">
         <h5>France</h5>
         <select id="dropdown" onChange={(e) => handleOnClick(e.target)}>
-          <option>London</option>
-          <option>Manchester</option>
-          <option>Liverpool</option>
+          <option>Paris</option>
+          <option>Marseille</option>
+          <option>Lyon</option>
         </select>
       </div>
       <div className="countries">
         <h5>Germany</h5>
         <select id="dropdown" onChange={(e) => handleOnClick(e.target)}>
-          <option>London</option>
-          <option>Manchester</option>
-          <option>Liverpool</option>
+          <option>Berlin</option>
+          <option>Hamburg</option>
+          <option>Munich</option>
         </select>
       </div>
       <div className="countries">
         <h5>USA</h5>
         <select id="dropdown" onChange={(e) => handleOnClick(e.target)}>
-          <option>London</option>
-          <option>Manchester</option>
-          <option>Liverpool</option>
+          <option>New York</option>
+          <option>Los Angeles</option>
+          <option>Chicago</option>
         </select>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./LocationInput.css";
 
 const LocationInput = ({ setLocation }) => {
   const [tempState, setTempState] = useState("");
