@@ -17,7 +17,7 @@ function App() {
   console.log(currentWeather);
   return (
     <div className="App">
-      <LocationInput location={location} setLocation={setLocation} />
+      <LocationInput setLocation={setLocation} />
       <Current currentWeather={currentWeather} />
     </div>
   );
