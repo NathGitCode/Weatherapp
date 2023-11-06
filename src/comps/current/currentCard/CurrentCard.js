@@ -3,7 +3,11 @@ import React from "react";
 const CurrentCard = ({ currentWeatherCard }) => {
   return (
     <div>
-      <p>{currentWeatherCard.location.name}</p>
+      <h4>{currentWeatherCard.location.name}</h4>
+      <div>
+        <img src={currentWeatherCard.current.condition.icon} alt="icon" />
+        <p>{currentWeatherCard.current.condition.text}</p>
+      </div>
     </div>
   );
 };
